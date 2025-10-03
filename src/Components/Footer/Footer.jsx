@@ -14,7 +14,7 @@ const Footer = () => {
         <p>GlobalMart</p>
       </div>
       <ul className='footer-links'>
-        <li>Compnay</li>
+        <li>Company</li>
         <li>Product</li>
         <li>Contact</li>
         <li>Offices</li>

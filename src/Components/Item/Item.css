@@ -1,0 +1,47 @@
+.item {
+  width: 220px;
+  text-align: center;
+  background: #1e293b; /* optional: card bg */
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
+
+.item img {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.item p {
+  margin: 6px 0;
+  font-size: 16px;
+  color: #fff;
+}
+
+/* --- prices --- */
+.item-prices {
+  display: flex;
+  justify-content: center; /* center prices */
+  gap: 10px;
+}
+
+.item-price-new {
+  color: #22c55e; /* green for new price */
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.item-price-old {
+  color: #9ca3af;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: line-through;
+}
